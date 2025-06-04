@@ -1,0 +1,103 @@
+/*global*/
+
+body{font-family: arial;}
+
+h1{text-align: center;}
+
+a href{text-decoration-color: white;}
+
+p{line-height: 1.5;}
+
+img{max-width: 100%;}
+
+/*utilites*/
+
+.btn-black{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding:10px;
+    margin-bottom:20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;}
+
+.btn-brown{
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    padding:10px;
+    margin-bottom:20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;}
+
+.container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+
+/*header*/
+
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primary-header{
+    background-image: url(img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;}
+
+    .menu a{
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    /*main*/
+
+    .main-flex{
+        display: flex;
+        flex-direction: row;}
+
+    .blog-container{
+        width: 60%
+        margin-right: 10px;
+    }
+
+    .courses-container{
+        Width: 40%}
+
+    * {
+        padding: 10;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .footer-container{
+    display: block;
+    background-color: black;
+    color: white;
+    padding:50px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+    .footer-heading a {
+        color: white;
+    }
+
+
+    
